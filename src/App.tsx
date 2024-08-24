@@ -1,23 +1,22 @@
 import React from "react";
-
 import "./App.scss";
 
 const App = () => {
-  const publishDate = "01-11-2023";
+  const publishDate = "24-08-2024";
   const gdpr = false;
   const emailStatus = true;
   const phoneStatus = true;
-  const appName = "DMS Dental";
-  const appWebsite = "https://dmsdental-eg.com";
-  const appAndroid = "https://dmsdental-eg.com";
-  const appIos = "https://dmsdental-eg.com";
-  const companyName = "DMS Dental";
-  const companyCountry = "Egypt";
-  const companyAddress = "Giza, Cairo, Egypt";
+  const appName = "TheAhmadSami";
+  const appWebsite = "https://theahmadsami.com";
+  const appAndroid = "https://theahmadsami.com";
+  const appIos = "https://theahmadsami.com";
+  const companyName = "TheAhmadSami";
+  const companyCountry = "Saudi Arabia";
+  const companyAddress = "Riyadh, Egypt";
   const companyAddressLink = "http://maps.google.com/";
-  const companyWebsite = "https://dmsdental-eg.com";
-  const companyEmail = "support@dmsdental-eg.com";
-  const companyPhones = ["+20 123 456 7890", "+20 123 456 7980"];
+  const companyWebsite = "https://theahmadsami.com";
+  const companyEmail = "support@theahmadsami.com";
+  const companyPhones = ["+966 53 220 1822", "+20 111 888 3551"];
   const collectedData = [
     "First name",
     "Last name",
@@ -752,7 +751,7 @@ const App = () => {
         </div>
       </section>
 
-      <section>{gdpr ? this.loadGDPR() : ""}</section>
+      <section>{gdpr ? loadGDPR() : ""}</section>
 
       <section>
         <h2>Contact Us</h2>
